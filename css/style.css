@@ -14,10 +14,10 @@ body {
 }
 
 :root {
-  --accent-color: #F7654A;
+  --accent-color: #f7654a;
   --dark-color: #404149;
   --gray-color: #999;
-  --white-color: #FFF;
+  --white-color: #fff;
 }
 
 .container {
@@ -46,7 +46,6 @@ button {
   background-size: cover;
   padding-bottom: 310px;
 }
-
 .header__title {
   display: flex;
   justify-content: space-between;
@@ -66,7 +65,6 @@ button {
   padding: 16px 0;
   border: none;
 }
-
 .burger__line {
   width: 21px;
   height: 3px;
@@ -116,13 +114,11 @@ button {
   justify-items: center;
   gap: 30px;
 }
-
 .numbers__item {
   width: 190px;
   height: 186px;
   text-align: center;
 }
-
 .numbers__h4 {
   color: var(--accent-color);
   font-size: 72px;
@@ -132,7 +128,6 @@ button {
   text-transform: uppercase;
   margin-bottom: 4px;
 }
-
 .numbers__h5 {
   font-size: 36px;
   font-style: normal;
@@ -140,7 +135,6 @@ button {
   line-height: normal;
   text-transform: uppercase;
 }
-
 .numbers__p {
   color: var(--gray-color);
   font-size: 18px;
@@ -159,24 +153,19 @@ button {
   text-align: center;
   margin-bottom: 50px;
 }
-
 .projects__flex {
   display: flex;
 }
-
 .projects__flex-item {
   max-width: 350px;
   margin-right: 30px;
 }
-
 .projects__flex-item:last-child {
   margin-right: 0;
 }
-
 .projects__img {
   max-width: 100%;
 }
-
 .projects__h3 {
   color: var(--dark-color);
   font-size: 24px;
@@ -185,7 +174,6 @@ button {
   letter-spacing: 0.01em;
   margin-bottom: 13px;
 }
-
 .projects__p {
   color: #999;
   font-family: Open Sans;
@@ -205,16 +193,13 @@ button {
   background-color: var(--accent-color);
   padding: 0 15px;
 }
-
 .request__flex {
   display: flex;
   justify-content: space-between;
 }
-
 .request__flex-left {
   color: var(--white-color);
 }
-
 .request__h4 {
   font-size: 48px;
   font-weight: 700;
@@ -222,14 +207,12 @@ button {
   text-transform: uppercase;
   margin: 30px 0 6px;
 }
-
 .request__h5 {
   font-size: 24px;
   font-weight: 700;
   letter-spacing: 0.48px;
   text-transform: uppercase;
 }
-
 .request__flex-btn {
   min-width: 175px;
   height: 49px;
@@ -237,9 +220,8 @@ button {
   margin: 73px 0 59px;
   display: flex;
   justify-content: space-between;
-  padding: 0px 30px;
+  padding: 0 30px;
 }
-
 .request__flex-btn p {
   font-family: Oswald;
   font-size: 14px;
@@ -248,7 +230,6 @@ button {
   text-transform: uppercase;
   margin-top: 14px;
 }
-
 .request__img {
   margin-top: 18px;
 }
@@ -256,7 +237,6 @@ button {
 .services {
   padding: 150px 0 147px;
 }
-
 .services__h2 {
   text-align: center;
   font-size: 36px;
@@ -264,7 +244,6 @@ button {
   text-transform: uppercase;
   margin-bottom: 55px;
 }
-
 .services__grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -272,18 +251,15 @@ button {
   gap: 30px;
   justify-items: center;
 }
-
 .services__grid-item {
   width: 350px;
   padding: 59px 0 61px;
   background-color: #f7f7f7;
 }
-
 .services__icon {
   margin: 0 auto 22px;
   display: block;
 }
-
 .services__h4 {
   max-width: 172px;
   text-transform: uppercase;
@@ -299,7 +275,6 @@ button {
   grid-template-columns: repeat(4, 1fr);
   gap: 0;
 }
-
 .portfolio__img {
   width: 100%;
   vertical-align: top;
@@ -308,7 +283,6 @@ button {
 .questions {
   padding: 150px 0 110px;
 }
-
 .questions__h2 {
   font-size: 36px;
   font-weight: 500;
@@ -316,7 +290,6 @@ button {
   margin-bottom: 50px;
   text-align: center;
 }
-
 .questions__h3 {
   font-size: 24px;
   font-weight: 500;
@@ -325,11 +298,9 @@ button {
   text-transform: uppercase;
   letter-spacing: 0.01rem;
 }
-
 .questions__h3_close {
   margin-bottom: 33px;
 }
-
 .questions__h3_close::before {
   content: "";
   width: 15px;
@@ -339,15 +310,12 @@ button {
   margin-right: 15px;
   margin-bottom: 3px;
 }
-
-.questions__h3_close+p {
+.questions__h3_close + p {
   display: none;
 }
-
 .questions__h3_open {
   margin-bottom: 22px;
 }
-
 .questions__h3_open::before {
   content: "";
   width: 15px;
@@ -358,7 +326,6 @@ button {
   margin-bottom: 4px;
   transform: rotateZ(270deg);
 }
-
 .questions__p {
   max-width: 730px;
   font-family: Open Sans;
@@ -371,7 +338,6 @@ button {
   background-color: var(--dark-color);
   padding: 100px 0 75px;
 }
-
 .partners__h2 {
   font-size: 36px;
   font-weight: 500;
@@ -380,19 +346,16 @@ button {
   color: var(--white-color);
   text-align: center;
 }
-
 .partners__flex {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-
 .partners__flex-item {
   max-width: 170px;
   margin-right: 40px;
   margin-bottom: 20px;
 }
-
 .partners__flex-item:nth-child(5n) {
   margin-right: 0;
 }
@@ -400,7 +363,6 @@ button {
 .reviews {
   padding: 150px 0 144px;
 }
-
 .reviews__h2 {
   text-align: center;
   font-size: 36px;
@@ -408,19 +370,16 @@ button {
   text-transform: uppercase;
   margin-bottom: 65px;
 }
-
 .reviews__grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
 }
-
 .reviews__card {
   padding: 19px 30px 33px;
   margin-bottom: 30px;
   background-color: #f7f7f7;
 }
-
 .reviews__quotes {
   color: var(--accent-color);
   font-size: 96px;
@@ -429,33 +388,29 @@ button {
   line-height: 1;
   margin-bottom: -37px;
 }
-
 .reviews__p {
   font-family: Open Sans;
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;
 }
-
 .reviews__h4 {
   font-size: 21px;
   font-weight: 500;
   letter-spacing: 0.42px;
 }
-
 .reviews__author-accent {
   color: var(--accent-color);
   letter-spacing: 0.7px;
 }
 
-.reviews+.request .request__h4 {
+.reviews + .request .request__h4 {
   letter-spacing: 1.25px;
 }
 
 .contacts {
   padding: 100px 0 120px;
 }
-
 .contacts__h2 {
   font-size: 36px;
   font-weight: 500;
@@ -463,36 +418,30 @@ button {
   text-align: center;
   margin-bottom: 60px;
 }
-
 .contacts__grid {
   display: grid;
   gap: 30px;
   grid-template-columns: repeat(4, 1fr);
 }
-
 .contacts__item {
   max-width: 250px;
   text-align: center;
 }
-
 .contacts__icon {
   width: 50px;
   height: 50px;
   margin: 0 auto 10px;
 }
-
 .contacts__h3 {
   font-size: 24px;
   font-weight: 500;
   text-transform: uppercase;
   margin-bottom: 30px;
 }
-
 .contacts__h3_gray {
   color: var(--gray-color);
   margin-bottom: 18px;
 }
-
 .contacts__h3_accent {
   color: var(--accent-color);
 }
@@ -505,14 +454,12 @@ button {
   font-size: 16px;
   font-weight: 400;
 }
-
 .footer__flex {
   display: flex;
   justify-content: space-between;
 }
 
 @media screen and (max-width: 1280px) {
-
   .portfolio__grid,
   .numbers,
   .services__grid,
@@ -520,49 +467,38 @@ button {
   .contacts__grid {
     grid-template-columns: repeat(2, 1fr);
   }
-
   .about {
     padding: 460px 15px 100px;
   }
-
   .services {
     padding-right: 15px;
     padding-left: 15px;
   }
-
   .services__grid-item {
     width: 100%;
   }
-
   .questions {
     padding: 110px 15px;
   }
-
   .partners__flex {
     justify-content: center;
   }
-
   .partners__flex-item {
     margin-left: 15px;
     margin-right: 15px;
   }
-
   .partners__flex-item:nth-child(5n) {
     margin-left: 15px;
     margin-right: 15px;
   }
-
   .reviews {
     padding: 110px 15px;
   }
-
   .contacts__item {
     max-width: 100%;
   }
 }
-
 @media screen and (max-width: 768px) {
-
   .services__grid,
   .portfolio__grid,
   .numbers,
@@ -570,48 +506,38 @@ button {
   .contacts__grid {
     grid-template-columns: 1fr;
   }
-
   .about {
     padding-top: 890px;
   }
-
   .numbers {
     padding: 57px 0;
   }
-
   .projects__flex {
     flex-direction: column;
     align-items: center;
   }
-
   .projects__flex-item:not(:last-child) {
     margin: 0 0 30px 0;
   }
-
   .request__flex {
     flex-direction: column;
     align-items: center;
   }
-
   .request__flex-btn {
     margin: 50px 0;
   }
-
   .questions {
     padding-top: 60px;
   }
-
   .footer__flex {
     flex-direction: column;
   }
 }
-
 @media screen and (max-width: 375px) {
   .h1 {
     font-size: 48px;
   }
-
   .questions__h3 {
     font-size: 20px;
   }
-}
+}/*# sourceMappingURL=style.css.map */
