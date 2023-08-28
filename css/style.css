@@ -298,34 +298,6 @@ button {
   text-transform: uppercase;
   letter-spacing: 0.01rem;
 }
-.questions__h3_close {
-  margin-bottom: 33px;
-}
-.questions__h3_close::before {
-  content: "";
-  width: 15px;
-  height: 15px;
-  display: inline-block;
-  background: url(../img/arrow.svg) no-repeat center;
-  margin-right: 15px;
-  margin-bottom: 3px;
-}
-.questions__h3_close + p {
-  display: none;
-}
-.questions__h3_open {
-  margin-bottom: 22px;
-}
-.questions__h3_open::before {
-  content: "";
-  width: 15px;
-  height: 15px;
-  display: inline-block;
-  background: url(../img/arrow.svg) no-repeat center;
-  margin-right: 15px;
-  margin-bottom: 4px;
-  transform: rotateZ(270deg);
-}
 .questions__p {
   max-width: 730px;
   font-family: Open Sans;
